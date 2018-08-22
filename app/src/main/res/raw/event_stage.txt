@@ -1,0 +1,108 @@
+<EventData scrollPoint="150" eventCategory="0">
+	<EnemyAppearance eventObjectID="2002" />
+</EventData>
+<EventData scrollPoint="250" eventCategory="0">
+	<EnemyAppearance eventObjectID="2003" />
+</EventData>
+<EventData scrollPoint="350" eventCategory="0">
+	<EnemyAppearance eventObjectID="2006" />
+</EventData>
+<EventData scrollPoint="420" eventCategory="0">
+	<EnemyAppearance eventObjectID="2000" />
+</EventData>
+<EventData scrollPoint="470" eventCategory="0">
+	<EnemyAppearance eventObjectID="2001" />
+</EventData>
+<EventData scrollPoint="520" eventCategory="0">
+	<EnemyAppearance eventObjectID="2000" />
+</EventData>
+<EventData scrollPoint="570" eventCategory="0">
+	<EnemyAppearance eventObjectID="2003" />
+</EventData>
+<EventData scrollPoint="620" eventCategory="0">
+	<EnemyAppearance eventObjectID="2011" />
+</EventData>
+<EventData scrollPoint="670" eventCategory="0">
+	<EnemyAppearance eventObjectID="2002" />
+</EventData>
+<EventData scrollPoint="770" eventCategory="0">
+	<EnemyAppearance eventObjectID="2007" />
+</EventData>
+<EventData scrollPoint="820" eventCategory="0">
+	<EnemyAppearance eventObjectID="2012" />
+</EventData>
+<EventData scrollPoint="870" eventCategory="0">
+	<EnemyAppearance eventObjectID="2010" />
+</EventData>
+<EventData scrollPoint="920" eventCategory="0">
+	<EnemyAppearance eventObjectID="2013" />
+</EventData>
+<EventData scrollPoint="990" eventCategory="0">
+	<EnemyAppearance eventObjectID="14" />
+</EventData>
+<EventData scrollPoint="1020" eventCategory="0">
+	<EnemyAppearance eventObjectID="2012" />
+</EventData>
+<EventData scrollPoint="1020" eventCategory="0">
+	<EnemyAppearance eventObjectID="2011" />
+</EventData>
+<EventData scrollPoint="1150" eventCategory="0">
+	<EnemyAppearance eventObjectID="2014" />
+</EventData>
+<EventData scrollPoint="1250" eventCategory="0">
+	<EnemyAppearance eventObjectID="2015" />
+</EventData>
+<EventData scrollPoint="1430" eventCategory="0">
+	<EnemyAppearance eventObjectID="2017" />
+</EventData>
+<EventData scrollPoint="1480" eventCategory="0">
+	<EnemyAppearance eventObjectID="2018" />
+</EventData>
+<EventData scrollPoint="1580" eventCategory="0">
+	<EnemyAppearance eventObjectID="2016" />
+</EventData>
+<EventData scrollPoint="1630" eventCategory="0">
+	<EnemyAppearance eventObjectID="14" />
+</EventData>
+<EventData scrollPoint="1680" eventCategory="0">
+	<EnemyAppearance eventObjectID="22" />
+</EventData>
+<EventData scrollPoint="1780" eventCategory="0">
+	<EnemyAppearance eventObjectID="9" />
+</EventData>
+<EventData scrollPoint="1880" eventCategory="0">
+	<EnemyAppearance eventObjectID="2007" />
+</EventData>
+<EventData scrollPoint="1930" eventCategory="0">
+	<EnemyAppearance eventObjectID="8" />
+</EventData>
+<EventData scrollPoint="2030" eventCategory="0">
+	<EnemyAppearance eventObjectID="2010" />
+</EventData>
+<EventData scrollPoint="2180" eventCategory="0">
+	<EnemyAppearance eventObjectID="6" />
+</EventData>
+<EventData scrollPoint="2330" eventCategory="0">
+	<EnemyAppearance eventObjectID="2007" />
+</EventData>
+<EventData scrollPoint="2500" eventCategory="0">
+	<EnemyAppearance eventObjectID="2020" />
+</EventData>
+<EventData scrollPoint="2550" eventCategory="0">
+	<EnemyAppearance eventObjectID="24" />
+</EventData>
+<EventData scrollPoint="2670" eventCategory="0">
+	<EnemyAppearance eventObjectID="24" />
+</EventData>
+<EventData scrollPoint="2700" eventCategory="0">
+	<EnemyAppearance eventObjectID="3" />
+</EventData>
+<EventData scrollPoint="2770" eventCategory="0">
+	<EnemyAppearance eventObjectID="23" />
+</EventData>
+<EventData scrollPoint="2900" eventCategory="0">
+	<EnemyAppearance eventObjectID="2021" />
+</EventData>
+<EventData scrollPoint="3000" eventCategory="0">
+	<EnemyAppearance eventObjectID="2021" />
+</EventData>

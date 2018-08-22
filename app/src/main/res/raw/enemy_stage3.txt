@@ -1,0 +1,951 @@
+<EnemyData name="chaser0" objectID="0" derivativeType="0">
+	<Start positionX="20.000000" positionY="0.000000" attributeX="0" attributeY="0"/>
+	<MovingNode>
+		<Node0 startVelocity="0.000000" startVelocity="5.000000" startAccelerationX="0.200000" startAccelerationY="0.000000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="40" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+		<Node1 startVelocity="0.000000" startVelocity="0.000000" startAccelerationX="0.000000" startAccelerationY="0.000000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="40" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+		<Node2 startVelocity="0.000000" startVelocity="-2.000000" startAccelerationX="0.000000" startAccelerationY="-0.500000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="300" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+	</MovingNode>
+	<GeneratingChild>
+		<Generating0 objectID="3000" repeat="2" startFrame="45" intervalFrame="20" centerX="0" centerY="0"/>
+	</GeneratingChild>
+	<CollisionRegion hitPoints="200" atackPoints="100">
+		<Collision0 centerX="0" centerY="0" radius="20" collisionShape="0"/>
+	</CollisionRegion>
+	<Sight>
+		<NormalAnime drawSizeX="48" drawSizeY="48" textureID="1" frameOffset="40" frameNumber="6" frameInterval="5" repeatAttrib="0" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+		<ExplosionAnime drawSizeX="48" drawSizeY="48" textureID="20" frameOffset="16" frameNumber="12" frameInterval="3" repeatAttrib="2" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+		<NodeActionAnime keyNode="1" drawSizeX="48" drawSizeY="48" textureID="1" frameOffset="40" frameNumber="1" frameInterval="1" repeatAttrib="1" rotateAction="1" rotateOffset="0" angularVelocity="0.000000">
+	</Sight>
+</EnemyData>
+<EnemyData name="chaser0r" objectID="1" derivativeType="0">
+	<Start positionX="80.000000" positionY="0.000000" attributeX="0" attributeY="0"/>
+	<MovingNode>
+		<Node0 startVelocity="0.000000" startVelocity="5.000000" startAccelerationX="-0.200000" startAccelerationY="0.000000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="40" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+		<Node1 startVelocity="0.000000" startVelocity="0.000000" startAccelerationX="0.000000" startAccelerationY="0.000000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="40" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+		<Node2 startVelocity="0.000000" startVelocity="-2.000000" startAccelerationX="0.000000" startAccelerationY="-0.500000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="300" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+	</MovingNode>
+	<GeneratingChild>
+		<Generating0 objectID="3000" repeat="2" startFrame="45" intervalFrame="20" centerX="0" centerY="0"/>
+	</GeneratingChild>
+	<CollisionRegion hitPoints="100" atackPoints="100">
+		<Collision0 centerX="0" centerY="0" radius="20" collisionShape="0"/>
+	</CollisionRegion>
+	<Sight>
+		<NormalAnime drawSizeX="48" drawSizeY="48" textureID="1" frameOffset="40" frameNumber="6" frameInterval="5" repeatAttrib="0" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+		<ExplosionAnime drawSizeX="48" drawSizeY="48" textureID="20" frameOffset="16" frameNumber="12" frameInterval="3" repeatAttrib="2" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+		<NodeActionAnime keyNode="1" drawSizeX="48" drawSizeY="48" textureID="1" frameOffset="40" frameNumber="1" frameInterval="1" repeatAttrib="1" rotateAction="1" rotateOffset="0" angularVelocity="0.000000">
+	</Sight>
+</EnemyData>
+<EnemyData name="discoid0r" objectID="2" derivativeType="0">
+	<Start positionX="50.000000" positionY="0.000000" attributeX="0" attributeY="0"/>
+	<MovingNode>
+		<Node0 startVelocity="-2.000000" startVelocity="5.000000" startAccelerationX="0.000000" startAccelerationY="-0.100000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="40" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+		<Node1 startVelocity="0.000000" startVelocity="5.000000" startAccelerationX="0.000000" startAccelerationY="0.000000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="500" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+	</MovingNode>
+	<GeneratingChild>
+	</GeneratingChild>
+	<CollisionRegion hitPoints="100" atackPoints="100">
+		<Collision0 centerX="0" centerY="0" radius="20" collisionShape="0"/>
+	</CollisionRegion>
+	<Sight>
+		<NormalAnime drawSizeX="48" drawSizeY="48" textureID="1" frameOffset="0" frameNumber="9" frameInterval="5" repeatAttrib="0" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+		<ExplosionAnime drawSizeX="48" drawSizeY="48" textureID="20" frameOffset="16" frameNumber="12" frameInterval="3" repeatAttrib="2" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+	</Sight>
+</EnemyData>
+<EnemyData name="frigate0" objectID="3" derivativeType="0">
+	<Start positionX="90.000000" positionY="0.000000" attributeX="0" attributeY="0"/>
+	<MovingNode>
+		<Node0 startVelocity="-0.200000" startVelocity="0.900000" startAccelerationX="0.000000" startAccelerationY="0.000000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="2000" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+	</MovingNode>
+	<GeneratingChild>
+		<Generating0 objectID="4000" repeat="1" startFrame="0" intervalFrame="0" centerX="0" centerY="0"/>
+		<Generating1 objectID="4001" repeat="1" startFrame="0" intervalFrame="0" centerX="0" centerY="0"/>
+		<Generating2 objectID="4002" repeat="1" startFrame="0" intervalFrame="0" centerX="0" centerY="0"/>
+		<Generating3 objectID="4009" repeat="1" startFrame="0" intervalFrame="0" centerX="0" centerY="0"/>
+	</GeneratingChild>
+	<CollisionRegion hitPoints="3000" atackPoints="100">
+		<Collision0 centerX="0" centerY="-40" radius="64" collisionShape="0"/>
+		<Collision1 centerX="0" centerY="80" radius="32" collisionShape="0"/>
+	</CollisionRegion>
+	<Sight>
+		<NormalAnime drawSizeX="128" drawSizeY="256" textureID="5" frameOffset="0" frameNumber="1" frameInterval="1" repeatAttrib="1" rotateAction="3" rotateOffset="0" angularVelocity="0.000000">
+		<ExplosionAnime drawSizeX="128" drawSizeY="256" textureID="20" frameOffset="16" frameNumber="12" frameInterval="3" repeatAttrib="2" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+	</Sight>
+</EnemyData>
+<EnemyData name="discoid0" objectID="4" derivativeType="0">
+	<Start positionX="50.000000" positionY="0.000000" attributeX="0" attributeY="0"/>
+	<MovingNode>
+		<Node0 startVelocity="2.000000" startVelocity="5.000000" startAccelerationX="0.000000" startAccelerationY="-0.100000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="40" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+		<Node1 startVelocity="0.000000" startVelocity="5.000000" startAccelerationX="0.000000" startAccelerationY="0.000000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="500" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+	</MovingNode>
+	<GeneratingChild>
+	</GeneratingChild>
+	<CollisionRegion hitPoints="100" atackPoints="100">
+		<Collision0 centerX="0" centerY="0" radius="20" collisionShape="0"/>
+	</CollisionRegion>
+	<Sight>
+		<NormalAnime drawSizeX="48" drawSizeY="48" textureID="1" frameOffset="0" frameNumber="9" frameInterval="5" repeatAttrib="0" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+		<ExplosionAnime drawSizeX="48" drawSizeY="48" textureID="20" frameOffset="16" frameNumber="12" frameInterval="3" repeatAttrib="2" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+	</Sight>
+</EnemyData>
+<EnemyData name="killerCone0" objectID="5" derivativeType="0">
+	<Start positionX="50.000000" positionY="0.000000" attributeX="0" attributeY="0"/>
+	<MovingNode>
+		<Node0 startVelocity="0.000000" startVelocity="1.000000" startAccelerationX="0.000000" startAccelerationY="0.000000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="80" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+		<Node1 startVelocity="0.000000" startVelocity="1.000000" startAccelerationX="0.000000" startAccelerationY="0.200000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="500" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+	</MovingNode>
+	<GeneratingChild>
+	</GeneratingChild>
+	<CollisionRegion hitPoints="500" atackPoints="100">
+		<Collision0 centerX="0" centerY="0" radius="16" collisionShape="0"/>
+	</CollisionRegion>
+	<Sight>
+		<NormalAnime drawSizeX="48" drawSizeY="48" textureID="1" frameOffset="16" frameNumber="12" frameInterval="5" repeatAttrib="0" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+		<ExplosionAnime drawSizeX="48" drawSizeY="48" textureID="20" frameOffset="0" frameNumber="12" frameInterval="3" repeatAttrib="2" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+		<NodeActionAnime keyNode="1" drawSizeX="48" drawSizeY="48" textureID="1" frameOffset="28" frameNumber="12" frameInterval="5" repeatAttrib="1" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+	</Sight>
+</EnemyData>
+<EnemyData name="frigate1" objectID="6" derivativeType="0">
+	<Start positionX="0.000000" positionY="0.000000" attributeX="0" attributeY="0"/>
+	<MovingNode>
+		<Node0 startVelocity="0.300000" startVelocity="0.900000" startAccelerationX="0.000000" startAccelerationY="0.000000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="2000" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+	</MovingNode>
+	<GeneratingChild>
+		<Generating0 objectID="4000" repeat="1" startFrame="0" intervalFrame="0" centerX="0" centerY="0"/>
+		<Generating1 objectID="4001" repeat="1" startFrame="0" intervalFrame="0" centerX="0" centerY="0"/>
+		<Generating2 objectID="4002" repeat="1" startFrame="0" intervalFrame="0" centerX="0" centerY="0"/>
+		<Generating3 objectID="4009" repeat="1" startFrame="0" intervalFrame="0" centerX="0" centerY="0"/>
+	</GeneratingChild>
+	<CollisionRegion hitPoints="3000" atackPoints="100">
+		<Collision0 centerX="0" centerY="-40" radius="64" collisionShape="0"/>
+		<Collision1 centerX="0" centerY="80" radius="32" collisionShape="0"/>
+	</CollisionRegion>
+	<Sight>
+		<NormalAnime drawSizeX="128" drawSizeY="256" textureID="5" frameOffset="0" frameNumber="1" frameInterval="1" repeatAttrib="1" rotateAction="3" rotateOffset="0" angularVelocity="0.000000">
+		<ExplosionAnime drawSizeX="128" drawSizeY="256" textureID="20" frameOffset="16" frameNumber="12" frameInterval="3" repeatAttrib="2" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+	</Sight>
+</EnemyData>
+<EnemyData name="asteroid0" objectID="7" derivativeType="0">
+	<Start positionX="0.000000" positionY="0.000000" attributeX="0" attributeY="0"/>
+	<MovingNode>
+		<Node0 startVelocity="1.000000" startVelocity="3.000000" startAccelerationX="0.000000" startAccelerationY="0.000000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="500" startVelocityAttributeX="1" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+	</MovingNode>
+	<GeneratingChild>
+	</GeneratingChild>
+	<CollisionRegion hitPoints="9000" atackPoints="100">
+		<Collision0 centerX="0" centerY="0" radius="32" collisionShape="0"/>
+	</CollisionRegion>
+	<Sight>
+		<NormalAnime drawSizeX="64" drawSizeY="64" textureID="1" frameOffset="48" frameNumber="12" frameInterval="5" repeatAttrib="0" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+		<ExplosionAnime drawSizeX="64" drawSizeY="64" textureID="20" frameOffset="16" frameNumber="12" frameInterval="5" repeatAttrib="2" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+	</Sight>
+</EnemyData>
+<EnemyData name="frigate2" objectID="8" derivativeType="0">
+	<Start positionX="80.000000" positionY="0.000000" attributeX="0" attributeY="0"/>
+	<MovingNode>
+		<Node0 startVelocity="0.000000" startVelocity="0.800000" startAccelerationX="0.000000" startAccelerationY="0.000000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="2000" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+	</MovingNode>
+	<GeneratingChild>
+		<Generating0 objectID="4000" repeat="1" startFrame="0" intervalFrame="0" centerX="0" centerY="0"/>
+		<Generating1 objectID="4001" repeat="1" startFrame="0" intervalFrame="0" centerX="0" centerY="0"/>
+		<Generating2 objectID="4002" repeat="1" startFrame="0" intervalFrame="0" centerX="0" centerY="0"/>
+		<Generating3 objectID="4009" repeat="1" startFrame="0" intervalFrame="0" centerX="0" centerY="0"/>
+	</GeneratingChild>
+	<CollisionRegion hitPoints="2500" atackPoints="100">
+		<Collision0 centerX="0" centerY="-40" radius="64" collisionShape="0"/>
+		<Collision1 centerX="0" centerY="80" radius="32" collisionShape="0"/>
+	</CollisionRegion>
+	<Sight>
+		<NormalAnime drawSizeX="128" drawSizeY="256" textureID="5" frameOffset="0" frameNumber="1" frameInterval="1" repeatAttrib="1" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+		<ExplosionAnime drawSizeX="128" drawSizeY="256" textureID="20" frameOffset="16" frameNumber="12" frameInterval="3" repeatAttrib="2" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+	</Sight>
+</EnemyData>
+<EnemyData name="frigate3" objectID="9" derivativeType="0">
+	<Start positionX="30.000000" positionY="0.000000" attributeX="0" attributeY="0"/>
+	<MovingNode>
+		<Node0 startVelocity="0.000000" startVelocity="0.800000" startAccelerationX="0.000000" startAccelerationY="0.000000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="2000" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+	</MovingNode>
+	<GeneratingChild>
+		<Generating0 objectID="4000" repeat="1" startFrame="0" intervalFrame="0" centerX="0" centerY="0"/>
+		<Generating1 objectID="4001" repeat="1" startFrame="0" intervalFrame="0" centerX="0" centerY="0"/>
+		<Generating2 objectID="4002" repeat="1" startFrame="0" intervalFrame="0" centerX="0" centerY="0"/>
+		<Generating3 objectID="4009" repeat="1" startFrame="0" intervalFrame="0" centerX="0" centerY="0"/>
+	</GeneratingChild>
+	<CollisionRegion hitPoints="2500" atackPoints="100">
+		<Collision0 centerX="0" centerY="-40" radius="64" collisionShape="0"/>
+		<Collision1 centerX="0" centerY="80" radius="32" collisionShape="0"/>
+	</CollisionRegion>
+	<Sight>
+		<NormalAnime drawSizeX="128" drawSizeY="256" textureID="5" frameOffset="0" frameNumber="1" frameInterval="1" repeatAttrib="1" rotateAction="3" rotateOffset="0" angularVelocity="0.000000">
+		<ExplosionAnime drawSizeX="128" drawSizeY="256" textureID="20" frameOffset="16" frameNumber="12" frameInterval="3" repeatAttrib="2" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+	</Sight>
+</EnemyData>
+<EnemyData name="discoid1" objectID="10" derivativeType="0">
+	<Start positionX="50.000000" positionY="0.000000" attributeX="0" attributeY="0"/>
+	<MovingNode>
+		<Node0 startVelocity="2.000000" startVelocity="6.000000" startAccelerationX="-0.100000" startAccelerationY="0.000000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="60" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+		<Node1 startVelocity="-4.000000" startVelocity="-6.000000" startAccelerationX="0.100000" startAccelerationY="0.000000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="999" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+	</MovingNode>
+	<GeneratingChild>
+	</GeneratingChild>
+	<CollisionRegion hitPoints="100" atackPoints="100">
+		<Collision0 centerX="0" centerY="0" radius="20" collisionShape="0"/>
+	</CollisionRegion>
+	<Sight>
+		<NormalAnime drawSizeX="48" drawSizeY="48" textureID="1" frameOffset="0" frameNumber="9" frameInterval="5" repeatAttrib="0" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+		<ExplosionAnime drawSizeX="48" drawSizeY="48" textureID="20" frameOffset="16" frameNumber="12" frameInterval="3" repeatAttrib="2" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+	</Sight>
+</EnemyData>
+<EnemyData name="bossCarrier" objectID="11" derivativeType="1">
+	<Start positionX="50.000000" positionY="0.000000" attributeX="0" attributeY="0"/>
+	<MovingNode>
+		<Node0 startVelocity="0.000000" startVelocity="0.500000" startAccelerationX="0.000000" startAccelerationY="0.000000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="300" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+		<Node1 startVelocity="0.000000" startVelocity="0.000000" startAccelerationX="0.000000" startAccelerationY="0.000000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="300" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+		<Node2 startVelocity="1.000000" startVelocity="1.000000" startAccelerationX="0.200000" startAccelerationY="0.200000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="30" startVelocityAttributeX="5" startVelocityAttributeY="0" startAccelerationAttributeX="5" startAccelerationAttribute="0"/>
+		<Node3 startVelocity="0.000000" startVelocity="0.000000" startAccelerationX="0.000000" startAccelerationY="0.000000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="20" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+		<Node4 startVelocity="-4.000000" startVelocity="0.000000" startAccelerationX="0.000000" startAccelerationY="0.000000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="70" startVelocityAttributeX="1" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+		<Node5 startVelocity="0.000000" startVelocity="0.000000" startAccelerationX="0.000000" startAccelerationY="0.000000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="20" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+		<Node6 startVelocity="1.000000" startVelocity="-1.000000" startAccelerationX="0.200000" startAccelerationY="-0.200000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="30" startVelocityAttributeX="1" startVelocityAttributeY="0" startAccelerationAttributeX="1" startAccelerationAttribute="0"/>
+		<Node7 startVelocity="0.000000" startVelocity="0.000000" startAccelerationX="0.000000" startAccelerationY="0.000000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="50" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+	</MovingNode>
+	<GeneratingChild>
+		<Generating0 objectID="4003" repeat="1" startFrame="100" intervalFrame="0" centerX="0" centerY="0"/>
+		<Generating1 objectID="4004" repeat="1" startFrame="100" intervalFrame="0" centerX="0" centerY="0"/>
+		<Generating2 objectID="4007" repeat="1" startFrame="100" intervalFrame="0" centerX="0" centerY="0"/>
+		<Generating3 objectID="4008" repeat="1" startFrame="100" intervalFrame="0" centerX="0" centerY="0"/>
+		<Generating4 objectID="4005" repeat="1" startFrame="100" intervalFrame="0" centerX="0" centerY="0"/>
+		<Generating5 objectID="4006" repeat="1" startFrame="100" intervalFrame="0" centerX="0" centerY="0"/>
+	</GeneratingChild>
+	<CollisionRegion hitPoints="30000" atackPoints="100">
+		<Collision0 centerX="0" centerY="0" radius="100" collisionShape="0"/>
+	</CollisionRegion>
+	<Sight>
+		<NormalAnime drawSizeX="256" drawSizeY="256" textureID="8" frameOffset="0" frameNumber="1" frameInterval="1" repeatAttrib="1" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+		<ExplosionAnime drawSizeX="256" drawSizeY="256" textureID="20" frameOffset="16" frameNumber="12" frameInterval="3" repeatAttrib="2" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+	</Sight>
+</EnemyData>
+<EnemyData name="chaser_bossL" objectID="12" derivativeType="0">
+	<Start positionX="50.000000" positionY="50.000000" attributeX="0" attributeY="0"/>
+	<MovingNode>
+		<Node0 startVelocity="-4.000000" startVelocity="3.000000" startAccelerationX="0.000000" startAccelerationY="-0.300000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="40" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+		<Node1 startVelocity="0.000000" startVelocity="0.000000" startAccelerationX="0.000000" startAccelerationY="0.000000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="40" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+		<Node2 startVelocity="0.000000" startVelocity="3.000000" startAccelerationX="0.000000" startAccelerationY="0.100000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="300" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+	</MovingNode>
+	<GeneratingChild>
+		<Generating0 objectID="3000" repeat="2" startFrame="45" intervalFrame="20" centerX="0" centerY="0"/>
+	</GeneratingChild>
+	<CollisionRegion hitPoints="200" atackPoints="100">
+		<Collision0 centerX="0" centerY="0" radius="20" collisionShape="0"/>
+	</CollisionRegion>
+	<Sight>
+		<NormalAnime drawSizeX="48" drawSizeY="48" textureID="1" frameOffset="40" frameNumber="6" frameInterval="5" repeatAttrib="0" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+		<ExplosionAnime drawSizeX="48" drawSizeY="48" textureID="20" frameOffset="16" frameNumber="12" frameInterval="3" repeatAttrib="2" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+		<NodeActionAnime keyNode="1" drawSizeX="48" drawSizeY="48" textureID="1" frameOffset="40" frameNumber="1" frameInterval="1" repeatAttrib="1" rotateAction="1" rotateOffset="0" angularVelocity="0.000000">
+	</Sight>
+</EnemyData>
+<EnemyData name="chaser_bossR" objectID="13" derivativeType="0">
+	<Start positionX="50.000000" positionY="50.000000" attributeX="0" attributeY="0"/>
+	<MovingNode>
+		<Node0 startVelocity="4.000000" startVelocity="3.000000" startAccelerationX="0.000000" startAccelerationY="-0.300000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="40" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+		<Node1 startVelocity="0.000000" startVelocity="0.000000" startAccelerationX="0.000000" startAccelerationY="0.000000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="40" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+		<Node2 startVelocity="0.000000" startVelocity="3.000000" startAccelerationX="0.000000" startAccelerationY="0.100000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="300" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+	</MovingNode>
+	<GeneratingChild>
+		<Generating0 objectID="3000" repeat="2" startFrame="45" intervalFrame="20" centerX="0" centerY="0"/>
+	</GeneratingChild>
+	<CollisionRegion hitPoints="200" atackPoints="100">
+		<Collision0 centerX="0" centerY="0" radius="20" collisionShape="0"/>
+	</CollisionRegion>
+	<Sight>
+		<NormalAnime drawSizeX="48" drawSizeY="48" textureID="1" frameOffset="40" frameNumber="6" frameInterval="5" repeatAttrib="0" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+		<ExplosionAnime drawSizeX="48" drawSizeY="48" textureID="20" frameOffset="16" frameNumber="12" frameInterval="3" repeatAttrib="2" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+		<NodeActionAnime keyNode="1" drawSizeX="48" drawSizeY="48" textureID="1" frameOffset="40" frameNumber="1" frameInterval="1" repeatAttrib="1" rotateAction="1" rotateOffset="0" angularVelocity="0.000000">
+	</Sight>
+</EnemyData>
+<EnemyData name="gunship0" objectID="14" derivativeType="0">
+	<Start positionX="0.000000" positionY="0.000000" attributeX="0" attributeY="0"/>
+	<MovingNode>
+		<Node0 startVelocity="2.000000" startVelocity="4.000000" startAccelerationX="0.000000" startAccelerationY="-0.050000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="140" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+		<Node1 startVelocity="-4.000000" startVelocity="0.000000" startAccelerationX="0.000000" startAccelerationY="0.100000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="200" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+	</MovingNode>
+	<GeneratingChild>
+		<Generating0 objectID="2009" repeat="3" startFrame="80" intervalFrame="40" centerX="0" centerY="16"/>
+	</GeneratingChild>
+	<CollisionRegion hitPoints="500" atackPoints="100">
+		<Collision0 centerX="0" centerY="0" radius="32" collisionShape="0"/>
+	</CollisionRegion>
+	<Sight>
+		<NormalAnime drawSizeX="64" drawSizeY="64" textureID="0" frameOffset="8" frameNumber="12" frameInterval="5" repeatAttrib="0" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+		<ExplosionAnime drawSizeX="64" drawSizeY="64" textureID="20" frameOffset="16" frameNumber="12" frameInterval="3" repeatAttrib="2" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+	</Sight>
+</EnemyData>
+<EnemyData name="discoid1r" objectID="15" derivativeType="0">
+	<Start positionX="50.000000" positionY="0.000000" attributeX="0" attributeY="0"/>
+	<MovingNode>
+		<Node0 startVelocity="-2.000000" startVelocity="6.000000" startAccelerationX="0.100000" startAccelerationY="0.000000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="60" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+		<Node1 startVelocity="4.000000" startVelocity="-6.000000" startAccelerationX="-0.100000" startAccelerationY="0.000000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="999" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+	</MovingNode>
+	<GeneratingChild>
+	</GeneratingChild>
+	<CollisionRegion hitPoints="100" atackPoints="100">
+		<Collision0 centerX="0" centerY="0" radius="20" collisionShape="0"/>
+	</CollisionRegion>
+	<Sight>
+		<NormalAnime drawSizeX="48" drawSizeY="48" textureID="1" frameOffset="0" frameNumber="9" frameInterval="5" repeatAttrib="0" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+		<ExplosionAnime drawSizeX="48" drawSizeY="48" textureID="20" frameOffset="16" frameNumber="12" frameInterval="3" repeatAttrib="2" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+	</Sight>
+</EnemyData>
+<EnemyData name="chaser1" objectID="16" derivativeType="0">
+	<Start positionX="50.000000" positionY="0.000000" attributeX="0" attributeY="0"/>
+	<MovingNode>
+		<Node0 startVelocity="0.000000" startVelocity="5.000000" startAccelerationX="0.000000" startAccelerationY="0.000000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="40" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+		<Node1 startVelocity="0.000000" startVelocity="0.000000" startAccelerationX="0.000000" startAccelerationY="0.000000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="40" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+		<Node2 startVelocity="0.000000" startVelocity="-2.000000" startAccelerationX="0.000000" startAccelerationY="-0.500000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="300" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+	</MovingNode>
+	<GeneratingChild>
+		<Generating0 objectID="3000" repeat="2" startFrame="45" intervalFrame="20" centerX="0" centerY="0"/>
+	</GeneratingChild>
+	<CollisionRegion hitPoints="200" atackPoints="100">
+		<Collision0 centerX="0" centerY="0" radius="20" collisionShape="0"/>
+	</CollisionRegion>
+	<Sight>
+		<NormalAnime drawSizeX="48" drawSizeY="48" textureID="1" frameOffset="40" frameNumber="6" frameInterval="5" repeatAttrib="0" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+		<ExplosionAnime drawSizeX="48" drawSizeY="48" textureID="20" frameOffset="16" frameNumber="12" frameInterval="3" repeatAttrib="2" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+		<NodeActionAnime keyNode="1" drawSizeX="48" drawSizeY="48" textureID="1" frameOffset="40" frameNumber="1" frameInterval="1" repeatAttrib="1" rotateAction="1" rotateOffset="0" angularVelocity="0.000000">
+	</Sight>
+</EnemyData>
+<EnemyData name="asteroid1" objectID="17" derivativeType="0">
+	<Start positionX="50.000000" positionY="0.000000" attributeX="0" attributeY="0"/>
+	<MovingNode>
+		<Node0 startVelocity="0.000000" startVelocity="3.000000" startAccelerationX="0.000000" startAccelerationY="0.000000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="500" startVelocityAttributeX="7" startVelocityAttributeY="7" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+	</MovingNode>
+	<GeneratingChild>
+	</GeneratingChild>
+	<CollisionRegion hitPoints="9000" atackPoints="100">
+		<Collision0 centerX="0" centerY="0" radius="32" collisionShape="0"/>
+	</CollisionRegion>
+	<Sight>
+		<NormalAnime drawSizeX="64" drawSizeY="64" textureID="1" frameOffset="48" frameNumber="12" frameInterval="5" repeatAttrib="0" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+		<ExplosionAnime drawSizeX="64" drawSizeY="64" textureID="20" frameOffset="16" frameNumber="12" frameInterval="5" repeatAttrib="2" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+	</Sight>
+</EnemyData>
+<EnemyData name="blocker0" objectID="18" derivativeType="1">
+	<Start positionX="0.000000" positionY="20.000000" attributeX="0" attributeY="0"/>
+	<MovingNode>
+		<Node0 startVelocity="3.000000" startVelocity="-2.000000" startAccelerationX="0.000000" startAccelerationY="0.150000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="60" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+		<Node1 startVelocity="3.000000" startVelocity="3.000000" startAccelerationX="-0.050000" startAccelerationY="-0.150000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="60" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+		<Node2 startVelocity="-2.000000" startVelocity="-3.000000" startAccelerationX="0.000000" startAccelerationY="0.150000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="999" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+	</MovingNode>
+	<GeneratingChild>
+		<Generating0 objectID="3000" repeat="2" startFrame="5" intervalFrame="40" centerX="0" centerY="20"/>
+	</GeneratingChild>
+	<CollisionRegion hitPoints="300" atackPoints="100">
+		<Collision0 centerX="0" centerY="0" radius="20" collisionShape="0"/>
+	</CollisionRegion>
+	<Sight>
+		<NormalAnime drawSizeX="48" drawSizeY="48" textureID="0" frameOffset="24" frameNumber="15" frameInterval="5" repeatAttrib="0" rotateAction="3" rotateOffset="0" angularVelocity="0.000000">
+		<ExplosionAnime drawSizeX="48" drawSizeY="48" textureID="20" frameOffset="16" frameNumber="12" frameInterval="3" repeatAttrib="2" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+	</Sight>
+</EnemyData>
+<EnemyData name="blocker1" objectID="19" derivativeType="1">
+	<Start positionX="80.000000" positionY="0.000000" attributeX="0" attributeY="0"/>
+	<MovingNode>
+		<Node0 startVelocity="-2.000000" startVelocity="3.000000" startAccelerationX="0.000000" startAccelerationY="-0.150000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="30" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+		<Node1 startVelocity="-2.000000" startVelocity="1.500000" startAccelerationX="0.150000" startAccelerationY="0.050000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="40" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+		<Node2 startVelocity="4.000000" startVelocity="3.500000" startAccelerationX="-0.150000" startAccelerationY="-0.050000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="999" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+	</MovingNode>
+	<GeneratingChild>
+		<Generating0 objectID="3000" repeat="2" startFrame="5" intervalFrame="40" centerX="0" centerY="20"/>
+	</GeneratingChild>
+	<CollisionRegion hitPoints="300" atackPoints="100">
+		<Collision0 centerX="0" centerY="0" radius="20" collisionShape="0"/>
+	</CollisionRegion>
+	<Sight>
+		<NormalAnime drawSizeX="48" drawSizeY="48" textureID="0" frameOffset="24" frameNumber="15" frameInterval="5" repeatAttrib="0" rotateAction="3" rotateOffset="0" angularVelocity="0.000000">
+		<ExplosionAnime drawSizeX="48" drawSizeY="48" textureID="20" frameOffset="16" frameNumber="12" frameInterval="3" repeatAttrib="2" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+	</Sight>
+</EnemyData>
+<EnemyData name="killerCone1" objectID="20" derivativeType="0">
+	<Start positionX="50.000000" positionY="0.000000" attributeX="0" attributeY="0"/>
+	<MovingNode>
+		<Node0 startVelocity="1.000000" startVelocity="0.000000" startAccelerationX="0.000000" startAccelerationY="0.000000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="80" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+		<Node1 startVelocity="1.000000" startVelocity="0.000000" startAccelerationX="0.200000" startAccelerationY="0.000000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="500" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+	</MovingNode>
+	<GeneratingChild>
+	</GeneratingChild>
+	<CollisionRegion hitPoints="500" atackPoints="100">
+		<Collision0 centerX="0" centerY="0" radius="16" collisionShape="0"/>
+	</CollisionRegion>
+	<Sight>
+		<NormalAnime drawSizeX="48" drawSizeY="48" textureID="1" frameOffset="16" frameNumber="12" frameInterval="5" repeatAttrib="0" rotateAction="0" rotateOffset="-90" angularVelocity="0.000000">
+		<ExplosionAnime drawSizeX="48" drawSizeY="48" textureID="20" frameOffset="0" frameNumber="12" frameInterval="3" repeatAttrib="2" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+		<NodeActionAnime keyNode="1" drawSizeX="48" drawSizeY="48" textureID="1" frameOffset="28" frameNumber="12" frameInterval="5" repeatAttrib="1" rotateAction="0" rotateOffset="-90" angularVelocity="0.000000">
+	</Sight>
+</EnemyData>
+<EnemyData name="killerCone1r" objectID="21" derivativeType="0">
+	<Start positionX="50.000000" positionY="0.000000" attributeX="0" attributeY="0"/>
+	<MovingNode>
+		<Node0 startVelocity="-1.000000" startVelocity="0.000000" startAccelerationX="0.000000" startAccelerationY="0.000000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="80" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+		<Node1 startVelocity="-1.000000" startVelocity="0.000000" startAccelerationX="-0.200000" startAccelerationY="0.000000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="500" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+	</MovingNode>
+	<GeneratingChild>
+	</GeneratingChild>
+	<CollisionRegion hitPoints="500" atackPoints="100">
+		<Collision0 centerX="0" centerY="0" radius="16" collisionShape="0"/>
+	</CollisionRegion>
+	<Sight>
+		<NormalAnime drawSizeX="48" drawSizeY="48" textureID="1" frameOffset="16" frameNumber="12" frameInterval="5" repeatAttrib="0" rotateAction="0" rotateOffset="90" angularVelocity="0.000000">
+		<ExplosionAnime drawSizeX="48" drawSizeY="48" textureID="20" frameOffset="0" frameNumber="12" frameInterval="3" repeatAttrib="2" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+		<NodeActionAnime keyNode="1" drawSizeX="48" drawSizeY="48" textureID="1" frameOffset="28" frameNumber="12" frameInterval="5" repeatAttrib="1" rotateAction="0" rotateOffset="90" angularVelocity="0.000000">
+	</Sight>
+</EnemyData>
+<EnemyData name="gunship0r" objectID="22" derivativeType="0">
+	<Start positionX="100.000000" positionY="0.000000" attributeX="0" attributeY="0"/>
+	<MovingNode>
+		<Node0 startVelocity="-2.000000" startVelocity="4.000000" startAccelerationX="0.000000" startAccelerationY="-0.050000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="140" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+		<Node1 startVelocity="4.000000" startVelocity="0.000000" startAccelerationX="0.000000" startAccelerationY="0.100000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="200" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+	</MovingNode>
+	<GeneratingChild>
+		<Generating0 objectID="2009" repeat="3" startFrame="80" intervalFrame="40" centerX="0" centerY="16"/>
+	</GeneratingChild>
+	<CollisionRegion hitPoints="500" atackPoints="100">
+		<Collision0 centerX="0" centerY="0" radius="32" collisionShape="0"/>
+	</CollisionRegion>
+	<Sight>
+		<NormalAnime drawSizeX="64" drawSizeY="64" textureID="0" frameOffset="8" frameNumber="12" frameInterval="5" repeatAttrib="0" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+		<ExplosionAnime drawSizeX="64" drawSizeY="64" textureID="20" frameOffset="16" frameNumber="12" frameInterval="3" repeatAttrib="2" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+	</Sight>
+</EnemyData>
+<EnemyData name="mak_chaser0" objectID="2000" derivativeType="0">
+	<Start positionX="0.000000" positionY="0.000000" attributeX="0" attributeY="0"/>
+	<MovingNode>
+		<Node0 startVelocity="15.000000" startVelocity="0.000000" startAccelerationX="0.000000" startAccelerationY="0.000000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="300" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+	</MovingNode>
+	<GeneratingChild>
+		<Generating0 objectID="0" repeat="2" startFrame="5" intervalFrame="5" centerX="0" centerY="0"/>
+	</GeneratingChild>
+	<CollisionRegion hitPoints="0" atackPoints="0">
+	</CollisionRegion>
+	<Sight>
+		<NormalAnime drawSizeX="0" drawSizeY="0" textureID="0" frameOffset="0" frameNumber="0" frameInterval="0" repeatAttrib="0" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+		<ExplosionAnime drawSizeX="0" drawSizeY="0" textureID="0" frameOffset="0" frameNumber="0" frameInterval="0" repeatAttrib="0" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+	</Sight>
+</EnemyData>
+<EnemyData name="mak_chaser0r" objectID="2001" derivativeType="0">
+	<Start positionX="100.000000" positionY="0.000000" attributeX="0" attributeY="0"/>
+	<MovingNode>
+		<Node0 startVelocity="-15.000000" startVelocity="0.000000" startAccelerationX="0.000000" startAccelerationY="0.000000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="300" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+	</MovingNode>
+	<GeneratingChild>
+		<Generating0 objectID="1" repeat="2" startFrame="5" intervalFrame="5" centerX="0" centerY="0"/>
+	</GeneratingChild>
+	<CollisionRegion hitPoints="0" atackPoints="0">
+	</CollisionRegion>
+	<Sight>
+		<NormalAnime drawSizeX="0" drawSizeY="0" textureID="0" frameOffset="0" frameNumber="0" frameInterval="0" repeatAttrib="0" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+		<ExplosionAnime drawSizeX="0" drawSizeY="0" textureID="0" frameOffset="0" frameNumber="0" frameInterval="0" repeatAttrib="0" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+	</Sight>
+</EnemyData>
+<EnemyData name="mak_discoid0" objectID="2002" derivativeType="0">
+	<Start positionX="10.000000" positionY="0.000000" attributeX="0" attributeY="0"/>
+	<MovingNode>
+		<Node0 startVelocity="2.000000" startVelocity="0.000000" startAccelerationX="0.000000" startAccelerationY="0.000000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="100" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+	</MovingNode>
+	<GeneratingChild>
+		<Generating0 objectID="4" repeat="5" startFrame="0" intervalFrame="20" centerX="0" centerY="0"/>
+	</GeneratingChild>
+	<CollisionRegion hitPoints="0" atackPoints="0">
+	</CollisionRegion>
+	<Sight>
+		<NormalAnime drawSizeX="0" drawSizeY="0" textureID="0" frameOffset="0" frameNumber="0" frameInterval="0" repeatAttrib="0" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+		<ExplosionAnime drawSizeX="0" drawSizeY="0" textureID="0" frameOffset="0" frameNumber="0" frameInterval="0" repeatAttrib="0" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+	</Sight>
+</EnemyData>
+<EnemyData name="mak_discoid0r" objectID="2003" derivativeType="0">
+	<Start positionX="90.000000" positionY="0.000000" attributeX="0" attributeY="0"/>
+	<MovingNode>
+		<Node0 startVelocity="-2.000000" startVelocity="0.000000" startAccelerationX="0.000000" startAccelerationY="0.000000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="100" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+	</MovingNode>
+	<GeneratingChild>
+		<Generating0 objectID="2" repeat="5" startFrame="0" intervalFrame="20" centerX="0" centerY="0"/>
+	</GeneratingChild>
+	<CollisionRegion hitPoints="0" atackPoints="0">
+	</CollisionRegion>
+	<Sight>
+		<NormalAnime drawSizeX="0" drawSizeY="0" textureID="0" frameOffset="0" frameNumber="0" frameInterval="0" repeatAttrib="0" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+		<ExplosionAnime drawSizeX="0" drawSizeY="0" textureID="0" frameOffset="0" frameNumber="0" frameInterval="0" repeatAttrib="0" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+	</Sight>
+</EnemyData>
+<EnemyData name="mak_killerCone0" objectID="2004" derivativeType="0">
+	<Start positionX="100.000000" positionY="0.000000" attributeX="0" attributeY="0"/>
+	<MovingNode>
+		<Node0 startVelocity="-5.000000" startVelocity="0.000000" startAccelerationX="0.000000" startAccelerationY="0.000000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="500" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+	</MovingNode>
+	<GeneratingChild>
+		<Generating0 objectID="5" repeat="6" startFrame="10" intervalFrame="10" centerX="0" centerY="0"/>
+	</GeneratingChild>
+	<CollisionRegion hitPoints="0" atackPoints="0">
+	</CollisionRegion>
+	<Sight>
+		<NormalAnime drawSizeX="0" drawSizeY="0" textureID="0" frameOffset="0" frameNumber="0" frameInterval="0" repeatAttrib="0" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+		<ExplosionAnime drawSizeX="0" drawSizeY="0" textureID="0" frameOffset="0" frameNumber="0" frameInterval="0" repeatAttrib="0" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+	</Sight>
+</EnemyData>
+<EnemyData name="mak-asteroid0" objectID="2005" derivativeType="0">
+	<Start positionX="0.000000" positionY="0.000000" attributeX="0" attributeY="0"/>
+	<MovingNode>
+		<Node0 startVelocity="2.000000" startVelocity="0.000000" startAccelerationX="0.000000" startAccelerationY="0.000000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="300" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+	</MovingNode>
+	<GeneratingChild>
+		<Generating0 objectID="7" repeat="2" startFrame="0" intervalFrame="40" centerX="0" centerY="0"/>
+	</GeneratingChild>
+	<CollisionRegion hitPoints="0" atackPoints="0">
+	</CollisionRegion>
+	<Sight>
+		<NormalAnime drawSizeX="0" drawSizeY="0" textureID="0" frameOffset="0" frameNumber="0" frameInterval="0" repeatAttrib="0" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+		<ExplosionAnime drawSizeX="0" drawSizeY="0" textureID="0" frameOffset="0" frameNumber="0" frameInterval="0" repeatAttrib="0" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+	</Sight>
+</EnemyData>
+<EnemyData name="mak-asteroid1" objectID="2006" derivativeType="0">
+	<Start positionX="100.000000" positionY="0.000000" attributeX="0" attributeY="0"/>
+	<MovingNode>
+		<Node0 startVelocity="-5.000000" startVelocity="0.000000" startAccelerationX="0.000000" startAccelerationY="0.000000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="500" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+	</MovingNode>
+	<GeneratingChild>
+		<Generating0 objectID="7" repeat="3" startFrame="0" intervalFrame="30" centerX="0" centerY="0"/>
+	</GeneratingChild>
+	<CollisionRegion hitPoints="0" atackPoints="0">
+	</CollisionRegion>
+	<Sight>
+		<NormalAnime drawSizeX="0" drawSizeY="0" textureID="0" frameOffset="0" frameNumber="0" frameInterval="0" repeatAttrib="0" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+		<ExplosionAnime drawSizeX="0" drawSizeY="0" textureID="0" frameOffset="0" frameNumber="0" frameInterval="0" repeatAttrib="0" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+	</Sight>
+</EnemyData>
+<EnemyData name="mak_discoid1" objectID="2007" derivativeType="0">
+	<Start positionX="75.000000" positionY="0.000000" attributeX="0" attributeY="0"/>
+	<MovingNode>
+		<Node0 startVelocity="0.000000" startVelocity="0.000000" startAccelerationX="0.000000" startAccelerationY="0.000000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="100" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+	</MovingNode>
+	<GeneratingChild>
+		<Generating0 objectID="10" repeat="6" startFrame="0" intervalFrame="15" centerX="0" centerY="0"/>
+	</GeneratingChild>
+	<CollisionRegion hitPoints="0" atackPoints="0">
+	</CollisionRegion>
+	<Sight>
+		<NormalAnime drawSizeX="0" drawSizeY="0" textureID="0" frameOffset="0" frameNumber="0" frameInterval="0" repeatAttrib="0" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+		<ExplosionAnime drawSizeX="0" drawSizeY="0" textureID="0" frameOffset="0" frameNumber="0" frameInterval="0" repeatAttrib="0" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+	</Sight>
+</EnemyData>
+<EnemyData name="mak_spread_blt" objectID="2008" derivativeType="0">
+	<Start positionX="50.000000" positionY="30.000000" attributeX="0" attributeY="0"/>
+	<MovingNode>
+		<Node0 startVelocity="0.000000" startVelocity="0.000000" startAccelerationX="0.000000" startAccelerationY="0.000000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="100" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+	</MovingNode>
+	<GeneratingChild>
+		<Generating0 objectID="3004" repeat="300" startFrame="0" intervalFrame="1" centerX="0" centerY="0"/>
+	</GeneratingChild>
+	<CollisionRegion hitPoints="0" atackPoints="0">
+	</CollisionRegion>
+	<Sight>
+		<NormalAnime drawSizeX="0" drawSizeY="0" textureID="0" frameOffset="0" frameNumber="9999" frameInterval="1" repeatAttrib="0" rotateAction="2" rotateOffset="0" angularVelocity="35.000000">
+		<ExplosionAnime drawSizeX="0" drawSizeY="0" textureID="0" frameOffset="0" frameNumber="0" frameInterval="0" repeatAttrib="0" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+	</Sight>
+</EnemyData>
+<EnemyData name="mak_spread_blt2" objectID="2009" derivativeType="0">
+	<Start positionX="50.000000" positionY="30.000000" attributeX="0" attributeY="0"/>
+	<MovingNode>
+		<Node0 startVelocity="0.000000" startVelocity="0.000000" startAccelerationX="0.000000" startAccelerationY="0.000000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="50" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+	</MovingNode>
+	<GeneratingChild>
+		<Generating0 objectID="3004" repeat="5" startFrame="2" intervalFrame="1" centerX="0" centerY="0"/>
+	</GeneratingChild>
+	<CollisionRegion hitPoints="0" atackPoints="0">
+	</CollisionRegion>
+	<Sight>
+		<NormalAnime drawSizeX="0" drawSizeY="0" textureID="0" frameOffset="0" frameNumber="9999" frameInterval="1" repeatAttrib="0" rotateAction="2" rotateOffset="-36" angularVelocity="18.000000">
+		<ExplosionAnime drawSizeX="0" drawSizeY="0" textureID="0" frameOffset="0" frameNumber="0" frameInterval="0" repeatAttrib="0" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+	</Sight>
+</EnemyData>
+<EnemyData name="mak_discoid1r" objectID="2010" derivativeType="0">
+	<Start positionX="25.000000" positionY="0.000000" attributeX="0" attributeY="0"/>
+	<MovingNode>
+		<Node0 startVelocity="0.000000" startVelocity="0.000000" startAccelerationX="0.000000" startAccelerationY="0.000000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="100" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+	</MovingNode>
+	<GeneratingChild>
+		<Generating0 objectID="15" repeat="6" startFrame="0" intervalFrame="15" centerX="0" centerY="0"/>
+	</GeneratingChild>
+	<CollisionRegion hitPoints="0" atackPoints="0">
+	</CollisionRegion>
+	<Sight>
+		<NormalAnime drawSizeX="0" drawSizeY="0" textureID="0" frameOffset="0" frameNumber="0" frameInterval="0" repeatAttrib="0" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+		<ExplosionAnime drawSizeX="0" drawSizeY="0" textureID="0" frameOffset="0" frameNumber="0" frameInterval="0" repeatAttrib="0" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+	</Sight>
+</EnemyData>
+<EnemyData name="mak_chaser1" objectID="2011" derivativeType="0">
+	<Start positionX="0.000000" positionY="0.000000" attributeX="0" attributeY="0"/>
+	<MovingNode>
+		<Node0 startVelocity="60.000000" startVelocity="0.000000" startAccelerationX="0.000000" startAccelerationY="0.000000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="300" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+	</MovingNode>
+	<GeneratingChild>
+		<Generating0 objectID="16" repeat="3" startFrame="2" intervalFrame="1" centerX="0" centerY="0"/>
+	</GeneratingChild>
+	<CollisionRegion hitPoints="0" atackPoints="0">
+	</CollisionRegion>
+	<Sight>
+		<NormalAnime drawSizeX="0" drawSizeY="0" textureID="0" frameOffset="0" frameNumber="0" frameInterval="0" repeatAttrib="0" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+		<ExplosionAnime drawSizeX="0" drawSizeY="0" textureID="0" frameOffset="0" frameNumber="0" frameInterval="0" repeatAttrib="0" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+	</Sight>
+</EnemyData>
+<EnemyData name="mak_chaser1r" objectID="2012" derivativeType="0">
+	<Start positionX="100.000000" positionY="0.000000" attributeX="0" attributeY="0"/>
+	<MovingNode>
+		<Node0 startVelocity="-60.000000" startVelocity="0.000000" startAccelerationX="0.000000" startAccelerationY="0.000000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="300" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+	</MovingNode>
+	<GeneratingChild>
+		<Generating0 objectID="16" repeat="3" startFrame="2" intervalFrame="1" centerX="0" centerY="0"/>
+	</GeneratingChild>
+	<CollisionRegion hitPoints="0" atackPoints="0">
+	</CollisionRegion>
+	<Sight>
+		<NormalAnime drawSizeX="0" drawSizeY="0" textureID="0" frameOffset="0" frameNumber="0" frameInterval="0" repeatAttrib="0" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+		<ExplosionAnime drawSizeX="0" drawSizeY="0" textureID="0" frameOffset="0" frameNumber="0" frameInterval="0" repeatAttrib="0" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+	</Sight>
+</EnemyData>
+<EnemyData name="mak-asteroid2" objectID="2013" derivativeType="0">
+	<Start positionX="20.000000" positionY="0.000000" attributeX="0" attributeY="0"/>
+	<MovingNode>
+		<Node0 startVelocity="2.000000" startVelocity="0.000000" startAccelerationX="0.000000" startAccelerationY="0.000000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="300" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+	</MovingNode>
+	<GeneratingChild>
+		<Generating0 objectID="17" repeat="3" startFrame="5" intervalFrame="30" centerX="0" centerY="0"/>
+	</GeneratingChild>
+	<CollisionRegion hitPoints="0" atackPoints="0">
+	</CollisionRegion>
+	<Sight>
+		<NormalAnime drawSizeX="0" drawSizeY="0" textureID="0" frameOffset="0" frameNumber="9999" frameInterval="1" repeatAttrib="0" rotateAction="2" rotateOffset="-40" angularVelocity="1.000000">
+		<ExplosionAnime drawSizeX="0" drawSizeY="0" textureID="0" frameOffset="0" frameNumber="0" frameInterval="0" repeatAttrib="0" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+	</Sight>
+</EnemyData>
+<EnemyData name="mak-blocker0" objectID="2014" derivativeType="0">
+	<Start positionX="0.000000" positionY="20.000000" attributeX="0" attributeY="0"/>
+	<MovingNode>
+		<Node0 startVelocity="0.000000" startVelocity="0.000000" startAccelerationX="0.000000" startAccelerationY="0.000000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="300" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+	</MovingNode>
+	<GeneratingChild>
+		<Generating0 objectID="18" repeat="6" startFrame="5" intervalFrame="25" centerX="0" centerY="0"/>
+	</GeneratingChild>
+	<CollisionRegion hitPoints="0" atackPoints="0">
+	</CollisionRegion>
+	<Sight>
+		<NormalAnime drawSizeX="0" drawSizeY="0" textureID="0" frameOffset="0" frameNumber="9999" frameInterval="1" repeatAttrib="0" rotateAction="2" rotateOffset="-40" angularVelocity="1.000000">
+		<ExplosionAnime drawSizeX="0" drawSizeY="0" textureID="0" frameOffset="0" frameNumber="0" frameInterval="0" repeatAttrib="0" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+	</Sight>
+</EnemyData>
+<EnemyData name="mak-blocker1" objectID="2015" derivativeType="0">
+	<Start positionX="80.000000" positionY="0.000000" attributeX="0" attributeY="0"/>
+	<MovingNode>
+		<Node0 startVelocity="0.000000" startVelocity="0.000000" startAccelerationX="0.000000" startAccelerationY="0.000000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="300" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+	</MovingNode>
+	<GeneratingChild>
+		<Generating0 objectID="19" repeat="6" startFrame="5" intervalFrame="25" centerX="0" centerY="0"/>
+	</GeneratingChild>
+	<CollisionRegion hitPoints="0" atackPoints="0">
+	</CollisionRegion>
+	<Sight>
+		<NormalAnime drawSizeX="0" drawSizeY="0" textureID="0" frameOffset="0" frameNumber="9999" frameInterval="1" repeatAttrib="0" rotateAction="2" rotateOffset="-40" angularVelocity="1.000000">
+		<ExplosionAnime drawSizeX="0" drawSizeY="0" textureID="0" frameOffset="0" frameNumber="0" frameInterval="0" repeatAttrib="0" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+	</Sight>
+</EnemyData>
+<EnemyData name="mak_killerCone1" objectID="2016" derivativeType="0">
+	<Start positionX="0.000000" positionY="0.000000" attributeX="0" attributeY="0"/>
+	<MovingNode>
+		<Node0 startVelocity="0.000000" startVelocity="100.000000" startAccelerationX="0.000000" startAccelerationY="0.000000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="500" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+	</MovingNode>
+	<GeneratingChild>
+		<Generating0 objectID="20" repeat="5" startFrame="1" intervalFrame="1" centerX="0" centerY="0"/>
+	</GeneratingChild>
+	<CollisionRegion hitPoints="0" atackPoints="0">
+	</CollisionRegion>
+	<Sight>
+		<NormalAnime drawSizeX="0" drawSizeY="0" textureID="0" frameOffset="0" frameNumber="0" frameInterval="0" repeatAttrib="0" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+		<ExplosionAnime drawSizeX="0" drawSizeY="0" textureID="0" frameOffset="0" frameNumber="0" frameInterval="0" repeatAttrib="0" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+	</Sight>
+</EnemyData>
+<EnemyData name="mak-asteroid3" objectID="2017" derivativeType="0">
+	<Start positionX="20.000000" positionY="0.000000" attributeX="0" attributeY="0"/>
+	<MovingNode>
+		<Node0 startVelocity="8.000000" startVelocity="0.000000" startAccelerationX="0.000000" startAccelerationY="0.000000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="300" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+	</MovingNode>
+	<GeneratingChild>
+		<Generating0 objectID="17" repeat="3" startFrame="2" intervalFrame="10" centerX="0" centerY="0"/>
+	</GeneratingChild>
+	<CollisionRegion hitPoints="0" atackPoints="0">
+	</CollisionRegion>
+	<Sight>
+		<NormalAnime drawSizeX="0" drawSizeY="0" textureID="0" frameOffset="0" frameNumber="9999" frameInterval="1" repeatAttrib="0" rotateAction="2" rotateOffset="10" angularVelocity="-1.100000">
+		<ExplosionAnime drawSizeX="0" drawSizeY="0" textureID="0" frameOffset="0" frameNumber="0" frameInterval="0" repeatAttrib="0" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+	</Sight>
+</EnemyData>
+<EnemyData name="mak_killerCone1r" objectID="2018" derivativeType="0">
+	<Start positionX="100.000000" positionY="0.000000" attributeX="0" attributeY="0"/>
+	<MovingNode>
+		<Node0 startVelocity="0.000000" startVelocity="50.000000" startAccelerationX="0.000000" startAccelerationY="0.000000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="500" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+	</MovingNode>
+	<GeneratingChild>
+		<Generating0 objectID="21" repeat="4" startFrame="3" intervalFrame="2" centerX="0" centerY="0"/>
+	</GeneratingChild>
+	<CollisionRegion hitPoints="0" atackPoints="0">
+	</CollisionRegion>
+	<Sight>
+		<NormalAnime drawSizeX="0" drawSizeY="0" textureID="0" frameOffset="0" frameNumber="0" frameInterval="0" repeatAttrib="0" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+		<ExplosionAnime drawSizeX="0" drawSizeY="0" textureID="0" frameOffset="0" frameNumber="0" frameInterval="0" repeatAttrib="0" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+	</Sight>
+</EnemyData>
+<EnemyData name="bullet_tendPlane" objectID="3000" derivativeType="0">
+	<Start positionX="50.000000" positionY="0.000000" attributeX="0" attributeY="0"/>
+	<MovingNode>
+		<Node0 startVelocity="0.000000" startVelocity="6.000000" startAccelerationX="0.000000" startAccelerationY="0.000000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="999" startVelocityAttributeX="3" startVelocityAttributeY="3" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+	</MovingNode>
+	<GeneratingChild>
+	</GeneratingChild>
+	<CollisionRegion hitPoints="0" atackPoints="100">
+		<Collision0 centerX="0" centerY="0" radius="6" collisionShape="0"/>
+	</CollisionRegion>
+	<Sight>
+		<NormalAnime drawSizeX="16" drawSizeY="16" textureID="10" frameOffset="0" frameNumber="4" frameInterval="5" repeatAttrib="0" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+		<ExplosionAnime drawSizeX="16" drawSizeY="16" textureID="10" frameOffset="8" frameNumber="4" frameInterval="1" repeatAttrib="2" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+	</Sight>
+</EnemyData>
+<EnemyData name="frigate_laser" objectID="3001" derivativeType="0">
+	<Start positionX="0.000000" positionY="0.000000" attributeX="0" attributeY="0"/>
+	<MovingNode>
+		<Node0 startVelocity="0.000000" startVelocity="4.000000" startAccelerationX="0.000000" startAccelerationY="0.000000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="500" startVelocityAttributeX="7" startVelocityAttributeY="7" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+	</MovingNode>
+	<GeneratingChild>
+	</GeneratingChild>
+	<CollisionRegion hitPoints="0" atackPoints="100">
+		<Collision0 centerX="0" centerY="-8" radius="5" collisionShape="0"/>
+		<Collision1 centerX="0" centerY="8" radius="5" collisionShape="0"/>
+	</CollisionRegion>
+	<Sight>
+		<NormalAnime drawSizeX="16" drawSizeY="32" textureID="10" frameOffset="20" frameNumber="4" frameInterval="8" repeatAttrib="0" rotateAction="3" rotateOffset="0" angularVelocity="0.000000">
+		<ExplosionAnime drawSizeX="16" drawSizeY="16" textureID="10" frameOffset="8" frameNumber="4" frameInterval="3" repeatAttrib="2" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+	</Sight>
+</EnemyData>
+<EnemyData name="frigate_canonBullet" objectID="3002" derivativeType="0">
+	<Start positionX="0.000000" positionY="0.000000" attributeX="0" attributeY="0"/>
+	<MovingNode>
+		<Node0 startVelocity="0.000000" startVelocity="4.000000" startAccelerationX="0.000000" startAccelerationY="0.000000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="500" startVelocityAttributeX="3" startVelocityAttributeY="3" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+	</MovingNode>
+	<GeneratingChild>
+	</GeneratingChild>
+	<CollisionRegion hitPoints="0" atackPoints="100">
+		<Collision0 centerX="0" centerY="-8" radius="5" collisionShape="0"/>
+		<Collision1 centerX="0" centerY="8" radius="5" collisionShape="0"/>
+	</CollisionRegion>
+	<Sight>
+		<NormalAnime drawSizeX="16" drawSizeY="32" textureID="10" frameOffset="20" frameNumber="4" frameInterval="8" repeatAttrib="0" rotateAction="3" rotateOffset="0" angularVelocity="0.000000">
+		<ExplosionAnime drawSizeX="16" drawSizeY="16" textureID="10" frameOffset="8" frameNumber="4" frameInterval="3" repeatAttrib="2" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+	</Sight>
+</EnemyData>
+<EnemyData name="boss_laser" objectID="3003" derivativeType="0">
+	<Start positionX="0.000000" positionY="0.000000" attributeX="0" attributeY="0"/>
+	<MovingNode>
+		<Node0 startVelocity="0.000000" startVelocity="8.000000" startAccelerationX="0.000000" startAccelerationY="0.000000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="500" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+	</MovingNode>
+	<GeneratingChild>
+	</GeneratingChild>
+	<CollisionRegion hitPoints="0" atackPoints="100">
+		<Collision0 centerX="0" centerY="-8" radius="5" collisionShape="0"/>
+		<Collision1 centerX="0" centerY="8" radius="5" collisionShape="0"/>
+	</CollisionRegion>
+	<Sight>
+		<NormalAnime drawSizeX="16" drawSizeY="32" textureID="10" frameOffset="20" frameNumber="4" frameInterval="8" repeatAttrib="0" rotateAction="3" rotateOffset="0" angularVelocity="0.000000">
+		<ExplosionAnime drawSizeX="16" drawSizeY="16" textureID="10" frameOffset="8" frameNumber="4" frameInterval="3" repeatAttrib="2" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+	</Sight>
+</EnemyData>
+<EnemyData name="bullet_straight" objectID="3004" derivativeType="0">
+	<Start positionX="50.000000" positionY="0.000000" attributeX="0" attributeY="0"/>
+	<MovingNode>
+		<Node0 startVelocity="0.000000" startVelocity="6.000000" startAccelerationX="0.000000" startAccelerationY="0.000000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="999" startVelocityAttributeX="7" startVelocityAttributeY="7" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+	</MovingNode>
+	<GeneratingChild>
+	</GeneratingChild>
+	<CollisionRegion hitPoints="0" atackPoints="100">
+		<Collision0 centerX="0" centerY="0" radius="6" collisionShape="0"/>
+	</CollisionRegion>
+	<Sight>
+		<NormalAnime drawSizeX="16" drawSizeY="16" textureID="10" frameOffset="0" frameNumber="4" frameInterval="5" repeatAttrib="0" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+		<ExplosionAnime drawSizeX="16" drawSizeY="16" textureID="10" frameOffset="8" frameNumber="4" frameInterval="1" repeatAttrib="2" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+	</Sight>
+</EnemyData>
+<EnemyData name="bullet_tendPlane_h" objectID="3005" derivativeType="0">
+	<Start positionX="50.000000" positionY="0.000000" attributeX="0" attributeY="0"/>
+	<MovingNode>
+		<Node0 startVelocity="0.000000" startVelocity="8.000000" startAccelerationX="0.000000" startAccelerationY="0.000000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="999" startVelocityAttributeX="3" startVelocityAttributeY="3" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+	</MovingNode>
+	<GeneratingChild>
+	</GeneratingChild>
+	<CollisionRegion hitPoints="0" atackPoints="100">
+		<Collision0 centerX="0" centerY="0" radius="6" collisionShape="0"/>
+	</CollisionRegion>
+	<Sight>
+		<NormalAnime drawSizeX="16" drawSizeY="16" textureID="10" frameOffset="0" frameNumber="4" frameInterval="5" repeatAttrib="0" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+		<ExplosionAnime drawSizeX="16" drawSizeY="16" textureID="10" frameOffset="8" frameNumber="4" frameInterval="1" repeatAttrib="2" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+	</Sight>
+</EnemyData>
+<EnemyData name="frigate_canon" objectID="4000" derivativeType="1">
+	<Start positionX="0.000000" positionY="10.000000" attributeX="0" attributeY="0"/>
+	<MovingNode>
+		<Node0 startVelocity="0.000000" startVelocity="0.000000" startAccelerationX="0.000000" startAccelerationY="0.000000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="9999" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+	</MovingNode>
+	<GeneratingChild>
+		<Generating0 objectID="3002" repeat="6" startFrame="100" intervalFrame="80" centerX="0" centerY="32"/>
+	</GeneratingChild>
+	<CollisionRegion hitPoints="0" atackPoints="0">
+	</CollisionRegion>
+	<Sight>
+		<NormalAnime drawSizeX="32" drawSizeY="64" textureID="0" frameOffset="0" frameNumber="1" frameInterval="0" repeatAttrib="1" rotateAction="1" rotateOffset="0" angularVelocity="0.000000">
+		<ExplosionAnime drawSizeX="64" drawSizeY="64" textureID="20" frameOffset="16" frameNumber="8" frameInterval="3" repeatAttrib="2" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+	</Sight>
+</EnemyData>
+<EnemyData name="frigate_engineL" objectID="4001" derivativeType="1">
+	<Start positionX="40.000000" positionY="-20.000000" attributeX="0" attributeY="0"/>
+	<MovingNode>
+		<Node0 startVelocity="0.000000" startVelocity="0.000000" startAccelerationX="0.000000" startAccelerationY="0.000000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="9999" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+	</MovingNode>
+	<GeneratingChild>
+		<Generating0 objectID="3001" repeat="6" startFrame="100" intervalFrame="40" centerX="0" centerY="32"/>
+	</GeneratingChild>
+	<CollisionRegion hitPoints="0" atackPoints="0">
+	</CollisionRegion>
+	<Sight>
+		<NormalAnime drawSizeX="32" drawSizeY="64" textureID="0" frameOffset="1" frameNumber="1" frameInterval="0" repeatAttrib="1" rotateAction="3" rotateOffset="0" angularVelocity="0.000000">
+		<ExplosionAnime drawSizeX="64" drawSizeY="64" textureID="20" frameOffset="16" frameNumber="8" frameInterval="3" repeatAttrib="2" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+	</Sight>
+</EnemyData>
+<EnemyData name="frigate_engineR" objectID="4002" derivativeType="1">
+	<Start positionX="-40.000000" positionY="-20.000000" attributeX="0" attributeY="0"/>
+	<MovingNode>
+		<Node0 startVelocity="0.000000" startVelocity="0.000000" startAccelerationX="0.000000" startAccelerationY="0.000000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="9999" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+	</MovingNode>
+	<GeneratingChild>
+		<Generating0 objectID="3001" repeat="6" startFrame="100" intervalFrame="40" centerX="0" centerY="32"/>
+	</GeneratingChild>
+	<CollisionRegion hitPoints="0" atackPoints="0">
+	</CollisionRegion>
+	<Sight>
+		<NormalAnime drawSizeX="32" drawSizeY="64" textureID="0" frameOffset="1" frameNumber="1" frameInterval="0" repeatAttrib="1" rotateAction="3" rotateOffset="0" angularVelocity="0.000000">
+		<ExplosionAnime drawSizeX="64" drawSizeY="64" textureID="20" frameOffset="16" frameNumber="8" frameInterval="3" repeatAttrib="2" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+	</Sight>
+</EnemyData>
+<EnemyData name="boss_canonL" objectID="4003" derivativeType="1">
+	<Start positionX="15.000000" positionY="10.000000" attributeX="0" attributeY="0"/>
+	<MovingNode>
+		<Node0 startVelocity="0.000000" startVelocity="0.000000" startAccelerationX="0.000000" startAccelerationY="0.000000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="9999" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+	</MovingNode>
+	<GeneratingChild>
+		<Generating0 objectID="3002" repeat="100" startFrame="100" intervalFrame="60" centerX="0" centerY="32"/>
+		<Generating1 objectID="3002" repeat="100" startFrame="2000" intervalFrame="40" centerX="0" centerY="32"/>
+	</GeneratingChild>
+	<CollisionRegion hitPoints="0" atackPoints="0">
+	</CollisionRegion>
+	<Sight>
+		<NormalAnime drawSizeX="32" drawSizeY="64" textureID="0" frameOffset="0" frameNumber="1" frameInterval="0" repeatAttrib="1" rotateAction="1" rotateOffset="0" angularVelocity="0.000000">
+		<ExplosionAnime drawSizeX="64" drawSizeY="64" textureID="20" frameOffset="16" frameNumber="8" frameInterval="3" repeatAttrib="2" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+	</Sight>
+</EnemyData>
+<EnemyData name="boss_canonR" objectID="4004" derivativeType="1">
+	<Start positionX="-15.000000" positionY="10.000000" attributeX="0" attributeY="0"/>
+	<MovingNode>
+		<Node0 startVelocity="0.000000" startVelocity="0.000000" startAccelerationX="0.000000" startAccelerationY="0.000000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="9999" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+	</MovingNode>
+	<GeneratingChild>
+		<Generating0 objectID="3002" repeat="100" startFrame="100" intervalFrame="60" centerX="0" centerY="32"/>
+		<Generating1 objectID="3002" repeat="100" startFrame="2000" intervalFrame="40" centerX="0" centerY="32"/>
+	</GeneratingChild>
+	<CollisionRegion hitPoints="0" atackPoints="0">
+	</CollisionRegion>
+	<Sight>
+		<NormalAnime drawSizeX="32" drawSizeY="64" textureID="0" frameOffset="0" frameNumber="1" frameInterval="0" repeatAttrib="1" rotateAction="1" rotateOffset="0" angularVelocity="0.000000">
+		<ExplosionAnime drawSizeX="64" drawSizeY="64" textureID="20" frameOffset="16" frameNumber="8" frameInterval="3" repeatAttrib="2" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+	</Sight>
+</EnemyData>
+<EnemyData name="launch_chaserL" objectID="4005" derivativeType="1">
+	<Start positionX="20.000000" positionY="20.000000" attributeX="0" attributeY="0"/>
+	<MovingNode>
+		<Node0 startVelocity="0.000000" startVelocity="0.000000" startAccelerationX="0.000000" startAccelerationY="0.000000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="9999" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+	</MovingNode>
+	<GeneratingChild>
+		<Generating0 objectID="12" repeat="5" startFrame="250" intervalFrame="50" centerX="0" centerY="0"/>
+		<Generating1 objectID="12" repeat="8" startFrame="2150" intervalFrame="40" centerX="0" centerY="0"/>
+	</GeneratingChild>
+	<CollisionRegion hitPoints="0" atackPoints="0">
+	</CollisionRegion>
+	<Sight>
+		<NormalAnime drawSizeX="0" drawSizeY="0" textureID="0" frameOffset="0" frameNumber="0" frameInterval="0" repeatAttrib="0" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+		<ExplosionAnime drawSizeX="64" drawSizeY="64" textureID="20" frameOffset="16" frameNumber="8" frameInterval="3" repeatAttrib="2" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+	</Sight>
+</EnemyData>
+<EnemyData name="launch_chaserR" objectID="4006" derivativeType="1">
+	<Start positionX="-20.000000" positionY="20.000000" attributeX="0" attributeY="0"/>
+	<MovingNode>
+		<Node0 startVelocity="0.000000" startVelocity="0.000000" startAccelerationX="0.000000" startAccelerationY="0.000000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="9999" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+	</MovingNode>
+	<GeneratingChild>
+		<Generating0 objectID="13" repeat="5" startFrame="250" intervalFrame="50" centerX="0" centerY="0"/>
+		<Generating1 objectID="13" repeat="8" startFrame="2150" intervalFrame="40" centerX="0" centerY="0"/>
+	</GeneratingChild>
+	<CollisionRegion hitPoints="0" atackPoints="0">
+	</CollisionRegion>
+	<Sight>
+		<NormalAnime drawSizeX="0" drawSizeY="0" textureID="0" frameOffset="0" frameNumber="0" frameInterval="0" repeatAttrib="0" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+		<ExplosionAnime drawSizeX="64" drawSizeY="64" textureID="20" frameOffset="16" frameNumber="8" frameInterval="3" repeatAttrib="2" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+	</Sight>
+</EnemyData>
+<EnemyData name="boss_beamsL" objectID="4007" derivativeType="1">
+	<Start positionX="38.000000" positionY="30.000000" attributeX="0" attributeY="0"/>
+	<MovingNode>
+		<Node0 startVelocity="0.000000" startVelocity="0.000000" startAccelerationX="0.000000" startAccelerationY="0.000000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="9999" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+	</MovingNode>
+	<GeneratingChild>
+		<Generating0 objectID="3003" repeat="80" startFrame="550" intervalFrame="2" centerX="0" centerY="0"/>
+	</GeneratingChild>
+	<CollisionRegion hitPoints="3000" atackPoints="100">
+		<Collision0 centerX="0" centerY="0" radius="32" collisionShape="0"/>
+	</CollisionRegion>
+	<Sight>
+		<NormalAnime drawSizeX="0" drawSizeY="0" textureID="0" frameOffset="0" frameNumber="0" frameInterval="0" repeatAttrib="0" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+		<ExplosionAnime drawSizeX="64" drawSizeY="64" textureID="20" frameOffset="16" frameNumber="8" frameInterval="3" repeatAttrib="2" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+	</Sight>
+</EnemyData>
+<EnemyData name="boss_beamsR" objectID="4008" derivativeType="1">
+	<Start positionX="-38.000000" positionY="30.000000" attributeX="0" attributeY="0"/>
+	<MovingNode>
+		<Node0 startVelocity="0.000000" startVelocity="0.000000" startAccelerationX="0.000000" startAccelerationY="0.000000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="9999" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+	</MovingNode>
+	<GeneratingChild>
+		<Generating0 objectID="3003" repeat="80" startFrame="550" intervalFrame="2" centerX="0" centerY="0"/>
+	</GeneratingChild>
+	<CollisionRegion hitPoints="3000" atackPoints="100">
+		<Collision0 centerX="0" centerY="0" radius="32" collisionShape="0"/>
+	</CollisionRegion>
+	<Sight>
+		<NormalAnime drawSizeX="0" drawSizeY="0" textureID="0" frameOffset="0" frameNumber="0" frameInterval="0" repeatAttrib="0" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+		<ExplosionAnime drawSizeX="64" drawSizeY="64" textureID="20" frameOffset="16" frameNumber="8" frameInterval="3" repeatAttrib="2" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+	</Sight>
+</EnemyData>
+<EnemyData name="frigate_flare" objectID="4009" derivativeType="1">
+	<Start positionX="0.000000" positionY="-48.000000" attributeX="0" attributeY="0"/>
+	<MovingNode>
+		<Node0 startVelocity="0.000000" startVelocity="0.000000" startAccelerationX="0.000000" startAccelerationY="0.000000" homingAccelerationX="0.000000" homingAccelerationY="0.000000" nodeDurationFrame="9999" startVelocityAttributeX="0" startVelocityAttributeY="0" startAccelerationAttributeX="0" startAccelerationAttribute="0"/>
+	</MovingNode>
+	<GeneratingChild>
+	</GeneratingChild>
+	<CollisionRegion hitPoints="0" atackPoints="0">
+	</CollisionRegion>
+	<Sight>
+		<NormalAnime drawSizeX="64" drawSizeY="64" textureID="2" frameOffset="0" frameNumber="15" frameInterval="2" repeatAttrib="0" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+		<ExplosionAnime drawSizeX="0" drawSizeY="0" textureID="0" frameOffset="0" frameNumber="0" frameInterval="1" repeatAttrib="2" rotateAction="0" rotateOffset="0" angularVelocity="0.000000">
+	</Sight>
+</EnemyData>

@@ -1,0 +1,15 @@
+<EventData scrollPoint="0" eventCategory="3">
+	<EnemyAppearance eventObjectID="0" />
+</EventData>
+<EventData scrollPoint="150" eventCategory="0">
+	<EnemyAppearance eventObjectID="33" />
+</EventData>
+<EventData scrollPoint="200" eventCategory="0">
+	<EnemyAppearance eventObjectID="33" />
+</EventData>
+<EventData scrollPoint="250" eventCategory="0">
+	<EnemyAppearance eventObjectID="33" />
+</EventData>
+<EventData scrollPoint="300" eventCategory="0">
+	<EnemyAppearance eventObjectID="33" />
+</EventData>
